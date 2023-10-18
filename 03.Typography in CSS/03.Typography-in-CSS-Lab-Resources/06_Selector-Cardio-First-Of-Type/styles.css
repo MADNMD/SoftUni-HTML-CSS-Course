@@ -1,0 +1,7 @@
+article p:first-of-type{
+    background-color: blue;
+}
+
+/* article :nth-child(2) {
+    background-color: blue;
+} */
