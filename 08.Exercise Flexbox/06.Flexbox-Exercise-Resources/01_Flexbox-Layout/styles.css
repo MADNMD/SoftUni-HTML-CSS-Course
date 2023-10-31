@@ -1,0 +1,30 @@
+body {
+    background-color: #EEE;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+header,
+main,
+aside,
+footer {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+header,
+footer {
+    flex-basis: 100%;
+}
+
+main {
+    flex: 8 1 auto;
+}
+
+aside {
+    flex: 2 1 auto;
+}
